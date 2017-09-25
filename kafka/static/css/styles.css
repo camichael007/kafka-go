@@ -1,0 +1,90 @@
+/* components */
+.main {
+    margin: 0 auto;
+    width: 120rem;
+    padding: 0 2rem 8rem 2rem;
+}
+
+.header {
+    padding: 2rem 0 1rem;
+    background-color: #FFFFFF;
+}
+
+.content {
+    margin-top: 2rem;
+}
+
+nav {
+    float: left;
+    text-transform: uppercase;
+    width: 16rem;
+}
+
+
+
+.nav__inner {
+    width: 100px;
+}
+
+.nav__item,
+.nav__item__with__subs {
+    color: #000000;
+    border-right: 2px solid #000000;
+    display: block;
+    padding-top: 1.8rem;
+    position: relative;
+}
+
+.navindicator__item {
+    height: .2rem;
+    width: calc(79% / 12); /* Note: width of mobile nav indicator should be divided by number of top level pages */
+    background-color: #888888;
+    display: inline-block;
+    margin: 0 .5%;
+}
+
+.right {
+    margin-left: 10rem;
+    min-height: 60rem;
+    overflow: hidden;
+}
+
+.desc {
+    margin-left: 3rem;
+    margin-bottom: 6rem;
+    overflow: hidden;
+}
+
+.desc-item {
+    float: left;
+    width: 24rem;
+    margin-left: 4.2rem;
+    color: black;
+}
+
+.index {
+    text-align: center;
+    padding-right: 25%;
+}
+
+.callout {
+    background-color: #F0F0F0;
+    padding: 1.5rem 2rem 3rem;
+    width: 33rem;
+    margin: 2rem auto 0;
+    position: relative;
+    text-align: center;
+}
+
+.kafka-diagram {
+    width: 40%;
+    min-width: 28rem;
+    height: auto;
+    position: relative;
+    left: 20rem;
+}
+
+.content_middle_sub {
+    float:left;
+    type: text;
+}

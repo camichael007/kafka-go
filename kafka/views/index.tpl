@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:og="http://ogp.me/ns#">
+<head>
+  <title>Daozai Kafka</title>
+  <link rel='stylesheet' href='/static/css/styles.css' type='text/css'>
+  <link rel='stylesheet' href='/static/css/syntax-highlighting.css' type='text/css'>
+</head>
+
+<body>
+<div class="main">
+  <div class="header">
+    <a href="/"><img width="325" height="97" class="logo" src="../static/images/logo.png"></a>
+  </div>
+
+  <div class="content">
+    <nav class="b-sticky-nav">
+      <div class="nav-scroller">
+        <div class="nav__inner">
+          <a class="nav__item" href="/"><h1>kafka</h1></a>
+          <a class="nav__item" href="http://192.168.1.11:8080/kafka/topiclist?zookeeper=192.168.33.10">listTopic</a>
+          <a class="nav__item" href="/quickstart">quickstart</a>
+          <a class="nav__item" href="/uses">use cases</a>
+          <a class="nav__item" href="/performance">performance</a>
+          <a class="nav__item" href="/powered-by">powered by</a>
+          <a class="nav__item" href="/project">project info</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="right">
+      <div class="index">
+        <img width="451" height="435" class="kafka-diagram" src="/static/images/kafka_diagram.png">
+        <div class="callout">
+          <p>Kafka&trade; is used for building real-time data pipelines and streaming apps. It is horizontally scalable, fault-tolerant, wicked fast, and runs in production in thousands of companies.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer__inner">
+    <div class="footer__legal">
+      <span class="footer__legal__one">The contents of this website are &copy; 2016 <a href="https://www.apache.org/" target="_blank">Apache Software Foundation</a> under the terms of the <a href="https://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License v2</a>.</span>
+      <span class="footer__legal__two">Apache Kafka, Kafka, and the Kafka logo are either registered trademarks or trademarks of The Apache Software Foundation</span>
+      <span class="footer__legal__three">in the United States and other countries.</span>
+    </div>
+    <a class="apache-feather" target="_blank" href="http://www.apache.org">
+      <img width="40" src="/static/images/feather-small.png" alt="Apache Feather">
+    </a>
+  </div>
+</div>
+</body>
+</html>
